@@ -11,15 +11,16 @@
     display:flex;
     /* border-bottom: #424242; */
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
+    border-bottom: 0.5px solid #d5d5d5;
     /* margin: 20px 0; */
     
 }
 
 .logo{
-    width:20vw;
+    width:100x;
     /* flex-direction: row;; */
     align-self: flex-start;
   
@@ -27,6 +28,10 @@
 }
 
 .navlinks {
+    display: flex;
+    width: 40vw;
+    font-size: 20px;
+    justify-content: space-between;
  
     
     
@@ -53,6 +58,8 @@ hr{
 .invest{
     width:100vw;
     margin:5vw;
+    padding:10px;
+    font-size: 20px;
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -69,5 +76,6 @@ hr{
 
  
     width: 70vw ;
+    margin: 30px;
 
 }
